@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>✌ Moisés' Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!-- the use of tables to affect the layout -->
+    <tr>
+      <td><img src="Images/eucircle.png" alt="moises profile picture"></td>
+      <td>
+        <h1>Moisés Bezerra</h1>
+        <p><em>A <a href="https://www.youtube.com/watch?v=KranHl5vgbI">musician</a> and an <strong>aspiring developer</strong></em></p>
+        <p>I am a brazilian musician and also a student at Angela Yu's Web Developer
+          bootcamp on <strong>Udemy</strong>. My first contact with programming was in the
+          University when I got enrolled on a Computer Science Introduction course.</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li><a href="https://www.unb.br/">University of Brasília</a></li>
+    <li><a href="https://www.oru.se/">Örebro Universitet</a></li>
+  </ul>
+  <hr>
+  <h3>Working Experience</h3>
+  <table cellspacing="10">
+    <!-- poderia colocar um border="1" aqui para ter bordas. Obs.: deprecated -->
+    <thead>
+      <!-- "thead" é usado quando existe a divisão entre "head" e "body". Nesse
+      caso é aconselhável utilizar o "th" (negrita) conforme abaixo -->
+      <tr>
+        <th>Year</th>
+        <th>Activity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2012-2015</td>
+        <td>Baioque MPB</td>
+      </tr>
+      <tr>
+        <td>2015-2016</td>
+        <td>Öreduo</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+
+  <table border="1" cellspacing="10">
+    <!-- NESTED TABLE. WHH (what happens here)? The outside table has borders,
+    the two nested ones don't. -->
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <!-- posso inserir emoji por código ou copiando um e colando. Espaço
+          conta -->
+            <td>Unity C#</td>
+            <td>&#128515; &#128515; &#128515; &#128515; &#128515;</td>
+          </tr>
+          <tr>
+            <td>Acoustic Guitar</td>
+            <td>😃 😃 😃 😃 😃</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>HTML</td>
+            <td>&#128515; &#128515; &#128515;</td>
+          </tr>
+          <tr>
+            <td>Piano</td>
+            <td>😃 😃 😃</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <a href="contact.html">Contact me :]</a>
+  </ul>
+</body>
+
+</html>
